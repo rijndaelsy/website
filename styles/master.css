@@ -1,0 +1,13 @@
+
+  .menu li{
+    display: inline;
+  }
+
+  .menu-bar{
+  background-color: black;
+  color: white;
+}
+.profile{
+  background-image: url("../images/startup.jpg");
+  background-position: center;
+}
