@@ -4,6 +4,7 @@ body, html {
     height: 100%;
 }
 
+/*front-page*/
 .front-page {
     background-image: url('../images/front.jpg');
     height: 100%;
@@ -11,10 +12,30 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: red;
+
 }
 
-h1{
+.front-page h1{
   text-align: center;
+  color: white;
+  position: absolute;
+  font-size: 40px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+.front-page p{
+  text-align: center;
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,+50%);
 }
 
 .icon-bar {
@@ -43,8 +64,8 @@ h1{
 
 .textbox{
   height:1000px;
-  background-color:black;
-  color: white;
+  color:rgb(241, 72, 72);
+  background-color: white;
   font-size:36px;
 }
 .profile{
@@ -54,8 +75,11 @@ h1{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
+
+/*contact css*/
 .contact{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   max-width: 300px;
@@ -67,3 +91,38 @@ h1{
 .container{
   padding: 0 16px;
 }
+
+.title{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding:8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.contact-button{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding:8px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover a:hover{
+  opacity: 0.7;
+}
+/*contact css*/
