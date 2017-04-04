@@ -23,7 +23,7 @@
 
   <!-- skills -->
 <div class="resume">
-  <button type="button" name="Resume">Download</button>
+  <button type="button" name="Resume"></button>
 </div>
 <!-- projects -->
   <div class="projects">
@@ -45,8 +45,6 @@
     <p><button class="contact-button">Contact</button></p>
   </div>
 </div>
-	<div class="footer">
-		<p>copyrights</p>
-	</div>
+
   </body>
 </html>
